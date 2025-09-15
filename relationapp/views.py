@@ -9,7 +9,7 @@ from .models import Profile,Expense,ExpenseCategory,Author,Book
 # Create your views here.
 
 def demo_one_to_one(request):
-    profiles=Profile.objects.select_related('user').all();
+    profiles=Profile.objects.select_related('user').all()
 
     profile_data=[
         {
