@@ -1,0 +1,85 @@
+[
+    {
+        "model":"relationapp.expensecategory",
+        "pk":1,
+        "fields":{
+            "name":"Food",
+            "description":"Food and dining expenses."
+        }
+    },
+    {
+        "model":"relationapp.expensecategory",
+        "pk":2,
+        "fields":{
+            "name":"Transportation",
+            "description":"Transportation expenses."
+        }
+    },
+    {
+        "model":"relationapp.expensecategory",
+        "pk":3,
+        "fields":{
+            "name":"Entertainment",
+            "description":"Entertainment expenses"
+        }
+    },
+    {
+        "model":"relationapp.expensecategory",
+        "pk":4,
+        "fields":{
+            "name":"Utilities",
+            "description":"Utilities expenses."
+        }
+    },
+    {
+        "model":"relationapp.expense",
+        "pk":1,
+        "fields":{
+            "category":3,
+            "amount":"45.00",
+            "date":"2024-03-13",
+            "description":"Movie tickets and snacks."
+        }
+    },
+    {
+        "model":"relationapp.expense",
+        "pk":2,
+        "fields":{
+            "category":2,
+            "amount":"45.00",
+            "date":"2024-03-13",
+            "description":"Uber ride to airport"
+        }
+    },
+    {
+        "model":"relationapp.expense",
+        "pk":3,
+        "fields":{
+            "category":1,
+            "amount":"45.00",
+            "date":"2024-03-13",
+            "description":"Lunch at cafeteria."
+        }
+    },
+    {
+        "model":"relationapp.expense",
+        "pk":4,
+        "fields":{
+            "category":4,
+            "amount":"45.00",
+            "date":"2024-03-13",
+            "description":"Electricity used."
+        }
+    },
+    {
+        "model":"relationapp.expense",
+        "pk":5,
+        "fields":{
+            "category":1,
+            "amount":"45.00",
+            "date":"2024-03-13",
+            "description":"Invitation dinner"
+        }
+    }
+    
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "model":"auth.user",
+        "pk":2,
+        "fields":{
+            "username":"john_doe",
+            "first_name":"john",
+            "last_name":"doe",
+            "email":"john@gmail.com",
+            "password":"iit123",
+            "is_active":true
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":3,
+        "fields":{
+            "username":"john_smith",
+            "first_name":"john",
+            "last_name":"smith",
+            "email":"johns@gmail.com",
+            "password":"s123",
+            "is_active":true
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":4,
+        "fields":{
+            "username":"john_kits",
+            "first_name":"john",
+            "last_name":"kits",
+            "email":"johnk@gmail.com",
+            "password":"k123",
+            "is_active":true
+        }
+    },
+
+    {
+        "model":"relationapp.profile",
+        "pk":1,
+        "fields":{
+            "user":1,
+            "bio":"A software developer who loves coding and building web applications.",
+            "birth_date":"2001-06-16",
+            "location":"New York"
+        }
+    },
+    {
+        "model":"relationapp.profile",
+        "pk":2,
+        "fields":{
+            "user":2,
+            "bio":"A software developer who loves coding and building web applications.",
+            "birth_date":"2002-06-16",
+            "location":"California"
+        }
+    },
+    {
+        "model":"relationapp.profile",
+        "pk":3,
+        "fields":{
+            "user":3,
+            "bio":"A software developer who loves coding and building web applications.",
+            "birth_date":"2003-06-16",
+            "location":"Boston"
+        }
+    },
+    {
+        "model":"relationapp.profile",
+        "pk":4,
+        "fields":{
+            "user":4,
+            "bio":"A software developer who loves coding and building web applications.",
+            "birth_date":"2004-06-16",
+            "location":"Chicago"
+        }
+    }
+
+]
+

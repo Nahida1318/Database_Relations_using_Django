@@ -1,0 +1,84 @@
+[
+    {
+        "model":"relationapp.author",
+        "pk":1,
+        "fields":{
+            "name":"J.k Rowling",
+            "bio":"British Author best known for Harry Potter series."
+        }
+    },
+    {
+        "model":"relationapp.author",
+        "pk":2,
+        "fields":{
+            "name":"John kits",
+            "bio":"British Author best known for Harry Potter series."
+        }
+    },
+    {
+        "model":"relationapp.author",
+        "pk":3,
+        "fields":{
+            "name":"Lord Byron",
+            "bio":"British Author best known for Harry Potter series."
+        }
+    },
+    {
+        "model":"relationapp.author",
+        "pk":4,
+        "fields":{
+            "name":"Shakespeare",
+            "bio":"British Author best known for Harry Potter series."
+        }
+    },
+    {
+        "model":"relationapp.book",
+        "pk":1,
+        "fields":{
+            "title":"A Game of thrones",
+            "year":"1996",
+            "isbn":"09623939",
+            "authors":[1]
+        }
+    },
+    {
+        "model":"relationapp.book",
+        "pk":2,
+        "fields":{
+            "title":"Tragedy",
+            "year":"1996",
+            "isbn":"09623939",
+            "authors":[2]
+        }
+    },
+    {
+        "model":"relationapp.book",
+        "pk":3,
+        "fields":{
+            "title":"Macbeth",
+            "year":"1996",
+            "isbn":"09623939",
+            "authors":[3]
+        }
+    },
+    {
+        "model":"relationapp.book",
+        "pk":4,
+        "fields":{
+            "title":"Greece and Troy",
+            "year":"1996",
+            "isbn":"09623939",
+            "authors":[2]
+        }
+    },
+    {
+        "model":"relationapp.book",
+        "pk":5,
+        "fields":{
+            "title":"Poetry",
+            "year":"1996",
+            "isbn":"09623939",
+            "authors":[4,3]
+        }
+    }
+]
